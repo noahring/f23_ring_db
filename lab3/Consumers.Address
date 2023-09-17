@@ -1,0 +1,20 @@
+Field Name: Address
+Spec. Type: Generic
+Parent Table: Consumers
+Source Specification: Comes from Consumers Table
+Aliases: consumers table
+Shared by: Consumers table
+Description: Address is a field in the Consumers table.
+It stores the street address of each consumer in the database.
+Data Type: VARCHAR
+Lenth: 30
+Decimal Places: None
+Character Support: Letters
+Key Type: None
+Key Structure: None
+Uniqueness: Non-Unique
+Null Support: No nulls
+Values entered by: user
+Required Value: Yes
+Edit Rule: Enter Now, Edits Allowed
+Range opf Values:

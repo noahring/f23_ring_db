@@ -1,0 +1,20 @@
+Field Name: CMovieTitle
+Spec. Type: Generic
+Parent Table: Movies
+Source Specification: Comes from Movies Table
+Aliases: Movies table
+Shared by: Movies table
+Description: MovieTitle is a field in the Movies table.
+It stores the title of each movie in the database.
+Data Type: VARCHAR
+Lenth: 30
+Decimal Places: None
+Character Support: Letters
+Key Type: None
+Key Structure: None
+Uniqueness: Non-Unique
+Null Support: No nulls
+Values entered by: user
+Required Value: Yes
+Edit Rule: Enter Now, Edits Allowed
+Range opf Values:

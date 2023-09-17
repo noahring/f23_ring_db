@@ -1,0 +1,20 @@
+Field Name: ConsumerID
+Spec. Type: Unique
+Parent Table: Consumers
+Source Specification: Comes from consumers Table
+Aliases: Consumers table
+Shared by: Consumers table
+Description: ConsumerID is a foreign key in the Ratings table.
+This field represents the consumer who rated a movie in the Ratings table.
+Data Type: INT
+Lenth: INT
+Decimal Places: None
+Character Support: Numbers
+Key Type: PK, FK
+Key Structure: simple
+Uniqueness: Unique
+Null Support: No nulls
+Values entered by: user
+Required Value: Yes
+Edit Rule: Enter Now, Edits Allowed
+Range opf Values: 1- infinity
