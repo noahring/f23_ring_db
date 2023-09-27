@@ -1,0 +1,32 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement:  A rug can be removed from the database, but only if it has never been
+sold to a customer or loaned out to a customer on a trial basis. 
+
+Constraint: Rug can't be purchased or on trial before to be removed from database. 
+
+Type:     Database Oriented
+Category: Field Specific 
+
+Test On: Delete 
+
+
+
+STRUCTURES AFFECTED
+
+Field Names: DateReturned, ReturnDate
+
+Table Names: Rugs, Trial, Sale
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements: Data Type
+
+Logical Elements:   Null Support
+
+
+RELATIONSHIP CHARACTERISTICS AFFECTED
+Deletion rule

@@ -1,0 +1,34 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement:  The owner has a firm rule that he never sells a rug at a loss 
+unless it has been in his inventory for over two years.
+
+Constraint: No negative profit until current date - purchase date is greater than 2 years. 
+
+Type:  Application Oriented   
+
+Category: Field Specific
+
+Test On: Update               
+
+
+STRUCTURES AFFECTED
+
+Field Names: Profit, DateAcquired 
+
+Table Names: Rug, Sale
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements: Data Type
+
+Logical Elements:  Range of Values 
+ 
+
+
+RELATIONSHIP CHARACTERISTICS AFFECTED
+    Type of participation
+    Degree of participation

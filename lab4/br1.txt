@@ -1,0 +1,32 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement:  Every customer must have an address when entered into the system, 
+and every address must be associated with at a customer. 
+
+Constraint: Not null. 
+
+Type:     Database Oriented
+
+Category: Field Specific
+
+Test On:  Insert
+
+
+STRUCTURES AFFECTED
+
+Field Names: CustomerAddress 
+
+Table Names: Customer
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements: Data Type
+Logical Elements:  Required Value
+
+
+RELATIONSHIP CHARACTERISTICS AFFECTED
+
+    Degree of participation

@@ -1,0 +1,34 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement: Customers can also take one or more rugs home on a trial basis. 
+The owner allows customers to take up to 4 rugs at a time to “try before you buy.”
+
+Constraint: No more than 4 rugs. 
+
+Type:     Database Oriented 
+
+Category: 
+          Relationship Specific 
+
+Test On:  Insert
+
+STRUCTURES AFFECTED
+
+Field Names: CustomerID, TrialID 
+
+Table Names: Customers, Trial
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements:   Length
+
+
+Logical Elements:  Range of Values 
+ 
+
+
+RELATIONSHIP CHARACTERISTICS AFFECTED
+    Degree of participation

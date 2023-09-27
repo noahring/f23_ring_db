@@ -1,0 +1,32 @@
+BUSINESS RULE SPECIFICATIONS
+
+RULE INFORMATION
+
+Statement: The owner considers a customer to be a “customer for life.” 
+So, a customer is never deleted from the database. 
+
+Constraint: Never delete CustomerID.
+
+Type:     Database Oriented 
+
+Category: Field Specific
+
+Test On:  Delete
+
+
+STRUCTURES AFFECTED
+
+Field Names: CustomerID 
+
+Table Names: Customers
+
+
+FIELD ELEMENTS AFFECTED
+
+Physical Elements: Data Type 
+
+Logical Elements:  Edit Rule 
+
+
+RELATIONSHIP CHARACTERISTICS AFFECTED
+    Deletion rule
