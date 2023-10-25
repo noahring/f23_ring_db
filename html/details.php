@@ -1,6 +1,6 @@
 <?php
     $dbname = $_POST['name'];   // Get the database name from the POST request
-    $conn = new mysqli("localhost", "noahring", "Bear1fan$", $dbname);   // Connect to the database
+    $conn = new mysqli("localhost", "webuser", "mewtwo", $dbname);   // Connect to the database
     if ($conn->connect_errno) {
         echo "Error: Failed to make a MySQL connection, here is why: ". "<br>";
         echo "Errno: " . $conn->connect_errno . "\n";
