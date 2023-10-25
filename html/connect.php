@@ -5,10 +5,11 @@
     error_reporting(E_ALL);
 ?>
 <?php
-    $dbhost = 'localhost';
-    $dbuser = 'noahring'; 
-    $dbpass = 'Bear1fan$';
-    $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
+    $config = parse_ini_file('/home/noahring/mysql.ini');
+    $conn = new mysqli(
+                $config['mysqli.default_host'],
+                $config['mysqli.default_user'],
+                $config['mysqli.default_pw']);
 ?>
 <?php
 
@@ -42,3 +43,4 @@
     <input name="name" id="name" type="text">
     <button type="submit">See Details</button>
  </form>
+
